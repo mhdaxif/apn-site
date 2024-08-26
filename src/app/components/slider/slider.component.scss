@@ -1,0 +1,118 @@
+.slider-container {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 40px auto;
+  border-radius: 10px;  /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  /* Subtle shadow */
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+
+    .slider-wrapper {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slider-image {
+      min-width: 100%;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);  /* Clip effect */
+        filter: brightness(70%) contrast(120%); /* Modern look */
+        transition: transform 0.5s ease-in-out;
+
+        &:hover {
+          transform: scale(1.1) rotate(3deg); /* Burn effect */
+        }
+      }
+
+      .slider-text {
+        position: absolute;
+        // bottom: 20px;
+        left: 50%;
+        top: 30%;
+        transform: translateX(-50%);
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        background: rgba(0, 0, 0, 0.2);  /* Semi-transparent background */
+        border-radius: 5px; 
+
+        h2 {
+          font-family: 'Patrick Hand', cursive;
+          font-size: 2rem;
+          margin: 0 0 10px;
+          font-weight: 700;
+        }
+
+        p {
+          font-family: 'Patrick Hand', cursive;
+          font-size: 1.2rem;
+          margin: 0;
+          line-height: 1.4;
+        }
+      } 
+    }
+  }
+
+  .slider-controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+
+    button {
+      // background-color: rgba(0, 0, 0, 0.5);
+      color: white; 
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 24px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        transform: scale(1.1);
+      }
+
+      background-color: unset;
+    }
+  }
+
+  .slider-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+    span {
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0.5);
+      margin: 0 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &.active {
+        background-color: #4285f4;
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+}

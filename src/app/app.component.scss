@@ -58,15 +58,15 @@
 // ===================== End of Nav bar
 
 
-  /* Image Blur Effect */
-  img {
-    filter: blur(4px);
-    transition: filter 0.3s ease;
-  }
+  // /* Image Blur Effect */
+  // img {
+  //   filter: blur(4px);
+  //   transition: filter 0.3s ease;
+  // }
   
-  img:hover {
-    filter: blur(0);
-  }
+  // img:hover {
+  //   filter: blur(0);
+  // }
  
 
 .main-content div {
@@ -74,4 +74,48 @@
     // padding-top: 35px; /* Adjust this based on the actual navbar height */
   }
 
- 
+  
+  // =======================
+  .google-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+    .logo img {
+        max-width: 35px;
+        max-height: 35px;
+        border-radius: 100%;
+      }
+    .nav-links {
+      display: flex;
+      list-style: none;
+      margin: 0;
+  
+      li {
+        margin: 0 15px;
+  
+        a {
+          text-decoration: none;
+          color: #333;
+          font-size: 1rem;
+          font-weight: 500;
+          transition: color 0.3s; 
+          &:hover {
+            color: #4285f4; /* Google Blue */
+          }
+        }
+
+        a.active{
+          color: #4285f4; /* Google Blue */
+        }
+      }
+    } 
+  }
+  
