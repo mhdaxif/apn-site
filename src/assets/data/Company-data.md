@@ -28,3 +28,7 @@ Qaiser Zaman is a seasoned advocate with over two decades of experience in the l
 Mr. Faisal Aziz Mughal is a seasoned lawyer with an impeccable legal career of over 22 years. He has expertise in Civil, Banking, Constitutional, Corporate & Service Laws. His areas of practice also include but are not limited to Sales Tax Law, Accountability Law, Employment Law, Power and Energy, Project Financing, Company Law, Land Law, Banking Law and Arbitrations. Moreover, he also deals with different law enforcement agencies with regard to Cyber Crimes, Anti Money Laundering, Banking frauds and Institutional Discipline.
 
 Most of his varied experience remains in Litigation, Arbitration/Dispute Resolution, Legal Advisory, rendering Legal Opinions, drafting Laws, Rules & Regulations, and Standing Operating Procedures including Disciplinary Code of Conduct for Institutions.
+
+
+
+0px 0px 10px 0px rgba(0,0,0,0.5)
