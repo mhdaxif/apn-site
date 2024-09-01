@@ -11,7 +11,7 @@
     line-height: 1.2;
   }
 
-  .services-grid {
+  .services-grid { 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 30px;
@@ -50,4 +50,12 @@
       }
     }
   }
+
+
+    /* Styles for mobile screens */
+    @media (max-width: 767px) {
+      .services-grid {
+        grid-template-columns: 1fr; /* Show one item per row */
+      }
+    }
 }
