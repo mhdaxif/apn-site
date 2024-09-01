@@ -49,18 +49,26 @@
 
   
   <!-- Main Content -->
+  <!-- <main class="main-content container mt-5">
+    <div>
+      <router-outlet></router-outlet>
+    </div>
+  </main> -->
+  @if (showSlider) {
+    <app-slider ></app-slider>
+  }
+
+
   <main class="main-content container mt-5">
     <div>
       <router-outlet></router-outlet>
     </div>
   </main>
 
-  <section class="mt-5 py-5">
-
-  </section>
+  <!-- <section class="mt-5 py-5"> </section> -->
   
   <!-- Footer -->
   <footer class="bg-dark text-light text-center py-4 mt-5">
-    <p>&copy; 2024 Education and Research Consultants</p>
+    <p>&copy; 2024 Academic Professional Network - Consultants</p>
   </footer>
 </div>

@@ -1,7 +1,19 @@
+html, body {
+  border: 1px solid red;
+  // margin: 0 !important;
+  // padding: 0 !important;
+  background: 
+  linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+  ),
+  url(assets/images/bg-image.jpg);
+ background-size: cover;
+}
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f8f9fa;
-  color: #333;
+  color: #333; 
 }
 
 h1, h2, h3 {
@@ -61,7 +73,7 @@ body {
 }
 
 main {
-  background-color: rgba(255, 255, 255, 0.9); /* Light background to make content stand out */
+  // background-color: rgba(255, 255, 255, 0.9); /* Light background to make content stand out */
   border-radius: 8px;
   // box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   padding: 20px;

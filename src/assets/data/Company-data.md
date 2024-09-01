@@ -31,4 +31,8 @@ Most of his varied experience remains in Litigation, Arbitration/Dispute Resolut
 
 
 
+Ali Mushtaq
+Mr. Ali Mushtaq acquired his preliminary education in Pakistan and secured the degree of LLB from Peshawar University. The acquired degree assisted him to get profound knowledge of Shari’ah Law, particularly Islamic financial transactions. He left to Australia to acquire Post Graduate Certificate in Business from Griffith University (Brisbane, Australia) followed by Post Graduate Diploma in Islamic Banking and finance from Pakistan. At his return from Australia, he joined Ghazanfar Bank (Kabul, Afghanistan) and worked in Credits & Islamic Investment Department for three years in distinct roles including Risk Manager, Deputy Chief Credit Officer, Acting Chief Credit Officer and Head of Islamic Investments. He then joined Islamic Bank of Thailand (Bangkok, Thailand) in 2011 and discharged his responsibilities as Assistant Vice President and “Islamic Banking Specialist” for three years. He rejoined Ghazanfar Bank in capacity of Chief of Islamic Banking Officer in March, 2015 in capacity of Chief Islamic Banking Officer till June 2020. His last assignment was Chief Credit Officer in Islamic Bank of Afghanistan till June 2022. 
+
+
 0px 0px 10px 0px rgba(0,0,0,0.5)

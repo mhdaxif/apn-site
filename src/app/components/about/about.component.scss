@@ -3,7 +3,7 @@
   color: #333;
    .team-section {
     padding: 100px 20px;
-    background-color: #fff;
+    // background-color: #fff;
     text-align: center;
     margin-top: -100px;
 
@@ -23,8 +23,19 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      gap: 40px;
-
+      gap: 40px; 
+      .team-highliter {
+        background: #fff;
+        // color: white;
+        border-radius: 12px;
+        box-shadow: 42px -42px 500px rgba(0, 0, 0, 1);
+        padding: 20px;
+        padding-top: 50px;
+        text-align: center;
+        margin-top: -50px;
+        position: relative;
+      }
+ 
       .team-member {
         background: #fff;
         border-radius: 12px;
